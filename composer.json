@@ -1,0 +1,28 @@
+{
+  "name": "waap/vendus-api",
+  "description": "PHP library for implementing the Vendus API",
+  "keywords": [
+    "vendus",
+    "sdk",
+    "api"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "José Osório",
+      "email": "jfrosorio@gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^7.3|^8.0",
+    "guzzlehttp/guzzle": "^7.0.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Wapp\\VendusApi\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
