@@ -86,7 +86,19 @@ class Api
     }
 
     /**
-     * Get the documentns endpoint.
+     * Get the products units endpoint.
+     *
+     * @return Endpoint
+     */
+    public function units(): Endpoint
+    {
+        $this->uri = 'products/units';
+
+        return new Endpoint($this);
+    }
+
+    /**
+     * Get the documents endpoint.
      *
      * @return Endpoint
      */
