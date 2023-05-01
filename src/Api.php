@@ -1,6 +1,6 @@
 <?php
 
-namespace Waap\VendusApi;
+namespace CodeTech\VendusApi;
 
 class Api
 {

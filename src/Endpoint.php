@@ -1,6 +1,6 @@
 <?php
 
-namespace Waap\VendusApi;
+namespace CodeTech\VendusApi;
 
 use GuzzleHttp\Exception\GuzzleException;
 use Psr\Http\Message\ResponseInterface;
