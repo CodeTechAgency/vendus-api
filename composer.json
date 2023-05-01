@@ -1,5 +1,5 @@
 {
-  "name": "waap/vendus-api",
+  "name": "codetech/vendus-api",
   "description": "PHP library for implementing the Vendus API",
   "keywords": [
     "vendus",
@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Waap\\VendusApi\\": "src/"
+      "CodeTech\\VendusApi\\": "src/"
     }
   },
   "minimum-stability": "dev",
